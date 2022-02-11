@@ -194,10 +194,6 @@ span{
 }
 
 /*feature*/
-.feature{
-    margin-top: 94px;
-    margin-bottom: 47px;
-}
 .feature-list{
     display: flex;
 }
@@ -227,11 +223,10 @@ span{
 }
 
 /*Work*/
-.work{
-    margin-top: 47px;
-    margin-bottom: 47px;
-}
 
+.work{
+    padding-top: 0;
+}
 .work-list{
         display: flex;
 }
@@ -268,9 +263,6 @@ span{
 }
 
 /*Team*/
-.team.section{
-    padding-top: 47px;
-}
 .team-list{
     display: flex;
     margin-top: 0;
@@ -296,7 +288,8 @@ span{
 }
 
 .item-kontent{
-    padding: 30px 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team .list-tittle{
     margin-top: 0;
@@ -394,7 +387,8 @@ span{
 }
 .projekt-content{
     width: 370px;
-    padding: 20px 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border: 1px solid #EEEEEE;
 
 }
